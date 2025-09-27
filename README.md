@@ -11,10 +11,17 @@ The primary output of this project is a $\mathbf{prioritized\ list\ of\ testable
 * **Module Identification:** Uncovers new, tightly-knit functional protein groups (e.g., the WDR17 complex members).
 
 ***
+### 🌐 Data Source
+
+The project requires the Homo sapiens protein interaction file, which can be downloaded directly from the STRING database:
+
+[9606.protein.links.v12.0.txt.gz](https://stringdb-downloads.org/download/protein.links.v12.0/9606.protein.links.v12.0.txt.gz)
+[9606.protein.info.v12.0.txt.gz](https://stringdb-downloads.org/download/protein.info.v12.0/9606.protein.info.v12.0.txt.gz)
 
 ## ⚙️ Methodology: The Node2Vec Workflow
 
 The project follows a standard workflow for network embedding and link prediction:
+
 
 ### 1. Network Embedding (Node2Vec)
 
