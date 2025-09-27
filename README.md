@@ -2,7 +2,7 @@
 
 This repository contains a demonstration of using **Graph Neural Networks (specifically, Node2Vec embeddings)** combined with machine learning to predict novel, high-confidence interactions within the Homo sapiens (human) protein-protein interaction (PPI) network.
 
-## 🌟 Project Potential
+## Project Potential
 
 The primary output of this project is a $\mathbf{prioritized\ list\ of\ testable\ hypotheses}$—new protein pairs highly likely to interact but not yet documented in public databases.
 
@@ -11,14 +11,14 @@ The primary output of this project is a $\mathbf{prioritized\ list\ of\ testable
 * **Module Identification:** Uncovers new, tightly-knit functional protein groups (e.g., the WDR17 complex members).
 
 ***
-### 🌐 Data Source
+### Data Source
 
 The project requires the Homo sapiens protein interaction file, which can be downloaded directly from the STRING database:
 
 [9606.protein.links.v12.0.txt.gz](https://stringdb-downloads.org/download/protein.links.v12.0/9606.protein.links.v12.0.txt.gz)
 [9606.protein.info.v12.0.txt.gz](https://stringdb-downloads.org/download/protein.info.v12.0/9606.protein.info.v12.0.txt.gz)
 
-## ⚙️ Methodology: The Node2Vec Workflow
+## Methodology: The Node2Vec Workflow
 
 The project follows a standard workflow for network embedding and link prediction:
 
@@ -49,7 +49,7 @@ A supervised machine learning model learns the pattern of a valid link.
 
 ***
 
-## 🖼️ Code Working: Visualization Functions
+## Code Working: Visualization Functions
 
 The two primary visualizations serve distinct analytical goals:
 
@@ -69,7 +69,7 @@ The two primary visualizations serve distinct analytical goals:
 
 ***
 
-## 💾 Code Execution Summary
+## Code Execution Summary
 
 | Function | Output Sample | Role in Workflow |
 | :--- | :--- | :--- |
