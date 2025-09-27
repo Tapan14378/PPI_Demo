@@ -1,11 +1,3 @@
-# PPI_Demo
-
-That's an excellent plan for sharing your work. The key to a good `README.md` file is using **Markdown formatting** to clearly explain the project's **purpose, methodology, and results**.
-
-Here is a comprehensive `README.md` structure for your GitHub repository, complete with explanations of the code's working and the potential of the results.
-
-***
-
 # Protein-Protein Interaction (PPI) Link Prediction using Node2Vec
 
 This repository contains a demonstration of using **Graph Neural Networks (specifically, Node2Vec embeddings)** combined with machine learning to predict novel, high-confidence interactions within the Homo sapiens (human) protein-protein interaction (PPI) network.
@@ -31,7 +23,7 @@ The core mechanism converts the messy, non-numerical graph structure into a clea
 | Step | Mechanism | Purpose |
 | :--- | :--- | :--- |
 | **Random Walks** | The $\mathbf{Node2Vec}$ algorithm simulates thousands of random paths across the network. | Captures the structural context (neighborhood) of every protein. |
-| **Vectorization** | Each protein is converted into a $\mathbf{64-dimensional\ vector\ (embedding)}$. | Proteins with similar function or network proximity receive numerically similar vectors. $\mathbf{\text{Vector\ Proximity \approx \text{Functional\ Similarity}}}$. |
+| **Vectorization** | Each protein is converted into a $\mathbf{64-dimensional\ vector\ (embedding)}$. | Proteins with similar function or network proximity receive numerically similar vectors.|
 | **Validation** | The model  distinguish between known links from non-links. | Confirms that the embeddings are a highly accurate representation of the underlying protein network structure. |
 
 ### 2. Link Feature Creation
