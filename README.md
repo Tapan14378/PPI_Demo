@@ -1,6 +1,8 @@
 # Protein-Protein Interaction (PPI) Link Prediction using Node2Vec
 
-This repository contains a demonstration of using **Graph Neural Networks (specifically, Node2Vec embeddings)** combined with machine learning to predict novel, high-confidence interactions within the Homo sapiens (human) protein-protein interaction (PPI) network.
+This repository contains a demonstration Protein-Protein Interaction Prediction using Graph Embeddings combined with machine learning to predict novel, high-confidence interactions within the Homo sapiens (human) protein-protein interaction (PPI) network. 
+
+Note: This is only a sample study; it lacks important characteristics such as biological validation of predicted interactions. The results are preliminary due to the limited sample size and would require biological validation for real-world applicability.
 
 ## Project Potential
 
